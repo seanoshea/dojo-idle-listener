@@ -1,0 +1,9 @@
+var idleListener = new IdleListener();
+idleListener.start(30000);
+ 
+dojo.subscribe("idle", function() {
+	// on idle event handler
+});
+dojo.subscribe("active", function() {
+	// on active event handler
+});
